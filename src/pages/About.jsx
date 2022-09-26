@@ -1,5 +1,10 @@
 import React from 'react';
 
 export default function About() {
-  return <div>About</div>;
+  return (
+    <section className='section about-section'>
+      <h1 className='section-title'>about us</h1>
+      <p> this our React Project</p>
+    </section>
+  );
 }
